@@ -20,6 +20,7 @@ import { GoldComponent } from './loan/gold/gold.component';
 import { DatabindingComponent } from './databinding/databinding.component';
 import { DirectivedemoComponent } from './directivedemo/directivedemo.component';
 import { AttrubutedirComponent } from './attrubutedir/attrubutedir.component';
+import { PipedemoComponent } from './pipedemo/pipedemo.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { AttrubutedirComponent } from './attrubutedir/attrubutedir.component';
     GoldComponent,
     DatabindingComponent,
     DirectivedemoComponent,
-    AttrubutedirComponent
+    AttrubutedirComponent,
+    PipedemoComponent
   ],
   imports: [
     BrowserModule,

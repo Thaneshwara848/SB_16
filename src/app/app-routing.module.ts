@@ -10,8 +10,12 @@ import { ItComponent } from './it/it.component';
 import { TestingComponent } from './testing/testing.component';
 import { DatabindingComponent } from './databinding/databinding.component';
 import { DirectivedemoComponent } from './directivedemo/directivedemo.component';
+import { PipedemoComponent } from './pipedemo/pipedemo.component';
 
 const routes: Routes = [
+  {
+    path:'pipe',component:PipedemoComponent
+  },
   {
     path:'dir',component:DirectivedemoComponent
   },
