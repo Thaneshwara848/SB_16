@@ -9,8 +9,12 @@ import { DeptComponent } from './dept/dept.component';
 import { ItComponent } from './it/it.component';
 import { TestingComponent } from './testing/testing.component';
 import { DatabindingComponent } from './databinding/databinding.component';
+import { DirectivedemoComponent } from './directivedemo/directivedemo.component';
 
 const routes: Routes = [
+  {
+    path:'dir',component:DirectivedemoComponent
+  },
   {
     path:'binding',component:DatabindingComponent
   },

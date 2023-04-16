@@ -18,6 +18,7 @@ import { HomeloanComponent } from './loan/homeloan/homeloan.component';
 import { PersanlComponent } from './loan/persanl/persanl.component';
 import { GoldComponent } from './loan/gold/gold.component';
 import { DatabindingComponent } from './databinding/databinding.component';
+import { DirectivedemoComponent } from './directivedemo/directivedemo.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { DatabindingComponent } from './databinding/databinding.component';
     HomeloanComponent,
     PersanlComponent,
     GoldComponent,
-    DatabindingComponent
+    DatabindingComponent,
+    DirectivedemoComponent
   ],
   imports: [
     BrowserModule,
