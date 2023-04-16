@@ -19,4 +19,22 @@ export class DatabindingComponent {
 
     alert(a1+b1)
   }
+
+  name="Prakash";
+  company="IBM";
+  mychoice=false;
+
+  total=0;
+  emi=0;
+  cal(p:string,r:string,t:string){
+   const pri =parseInt(p);
+   const roi =parseInt(r);
+   const time =parseInt(t);
+
+    this.total=(pri*time*roi)/100;
+    this.emi= this.total/time;
+    
+
+
+  }
 }

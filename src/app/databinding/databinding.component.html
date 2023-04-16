@@ -1,5 +1,16 @@
 <h1> Hi Data Binding </h1>
 <hr>
+<h3>
+    principle : <input type="text" #p><br>
+    rate of Int: <input type="text" #r> <br>
+    Timein Mon : <input type="t<ext" #t><br>
+    Totla :<input type="text" value={{total}}><br>
+    EMI :<input type="text" value={{emi}}><br>
+
+    <input type="submit" value="Caculate" (click)="cal(p.value,r.value,t.value)">
+</h3>
+<hr>
+
 <input type="submit" value="CLICK" (click)="abc()">
 <hr>
 
@@ -13,4 +24,19 @@ A : <input type="text" #a><br>
 B : <input type="text" #b><br>
 
 <input type="submit" value="ADD" (click)="add(a.value,b.value)">
+<hr>
+
+{{name}}<br>
+<b>Hi My Name is :  {{name}}</b>
+<hr>
+{{company}} was founded in 1911 in Endicott, New York<br>
+{{company}} has several leadership development and recognition programs<br>
+In 1963, {{company}} employees and computers helped NASA track the orbital flights<br>
+n April 7, 1964, {{company}} launched the first computer system family, the {{company}} System/360
+Also in 1969, {{company}} engineer Forrest Parry invented the magnetic stripe card that would become 
+In 1993, {{company}} posted an $8 billion loss – at the time the biggest in American corporate history
+
+<hr>
+
+<input type="submit" value="My Button" [disabled]="mychoice">
 
