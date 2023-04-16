@@ -19,6 +19,7 @@ import { PersanlComponent } from './loan/persanl/persanl.component';
 import { GoldComponent } from './loan/gold/gold.component';
 import { DatabindingComponent } from './databinding/databinding.component';
 import { DirectivedemoComponent } from './directivedemo/directivedemo.component';
+import { AttrubutedirComponent } from './attrubutedir/attrubutedir.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { DirectivedemoComponent } from './directivedemo/directivedemo.component'
     PersanlComponent,
     GoldComponent,
     DatabindingComponent,
-    DirectivedemoComponent
+    DirectivedemoComponent,
+    AttrubutedirComponent
   ],
   imports: [
     BrowserModule,
