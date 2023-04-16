@@ -8,8 +8,12 @@ import { SignupComponent } from './signup/signup.component';
 import { DeptComponent } from './dept/dept.component';
 import { ItComponent } from './it/it.component';
 import { TestingComponent } from './testing/testing.component';
+import { DatabindingComponent } from './databinding/databinding.component';
 
 const routes: Routes = [
+  {
+    path:'binding',component:DatabindingComponent
+  },
  {
   path:'home',component:HomeComponent
  },
@@ -21,12 +25,18 @@ const routes: Routes = [
  },
  {
   path:'signup',component:SignupComponent
- },{
+ },
+ {
   path:'dept',component:DeptComponent
- },{
+ },
+ {
   path:'dept/it',component:ItComponent
- },{
+ },
+ {
   path:'dept/test',component:TestingComponent
+ },
+ {
+  path:'**',component:LoginComponent
  }
 ];
 

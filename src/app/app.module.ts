@@ -12,6 +12,12 @@ import { DeptComponent } from './dept/dept.component';
 import { ItComponent } from './it/it.component';
 import { TestingComponent } from './testing/testing.component';
 import { DeployementComponent } from './deployement/deployement.component';
+import { LoanComponent } from './loan/loan.component';
+import { EduComponent } from './loan/edu/edu.component';
+import { HomeloanComponent } from './loan/homeloan/homeloan.component';
+import { PersanlComponent } from './loan/persanl/persanl.component';
+import { GoldComponent } from './loan/gold/gold.component';
+import { DatabindingComponent } from './databinding/databinding.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +30,13 @@ import { DeployementComponent } from './deployement/deployement.component';
     DeptComponent,
     ItComponent,
     TestingComponent,
-    DeployementComponent
+    DeployementComponent,
+    LoanComponent,
+    EduComponent,
+    HomeloanComponent,
+    PersanlComponent,
+    GoldComponent,
+    DatabindingComponent
   ],
   imports: [
     BrowserModule,

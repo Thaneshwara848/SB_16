@@ -1,0 +1,16 @@
+<h1> Hi Data Binding </h1>
+<hr>
+<input type="submit" value="CLICK" (click)="abc()">
+<hr>
+
+<input type="text" #uname>
+
+<input type="submit" value="SEND" (click)="user(uname.value)">
+
+<hr>
+
+A : <input type="text" #a><br>
+B : <input type="text" #b><br>
+
+<input type="submit" value="ADD" (click)="add(a.value,b.value)">
+
