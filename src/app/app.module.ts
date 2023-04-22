@@ -21,7 +21,12 @@ import { DatabindingComponent } from './databinding/databinding.component';
 import { DirectivedemoComponent } from './directivedemo/directivedemo.component';
 import { AttrubutedirComponent } from './attrubutedir/attrubutedir.component';
 import { PipedemoComponent } from './pipedemo/pipedemo.component';
-
+import { SqurPipe } from './squr.pipe';
+import { CubePipe } from './cube.pipe';
+import { FromsdemoComponent } from './fromsdemo/fromsdemo.component';
+import { TempletdrivenComponent } from './templetdriven/templetdriven.component';
+import { ReactivedrivenComponent } from './reactivedriven/reactivedriven.component';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -42,11 +47,17 @@ import { PipedemoComponent } from './pipedemo/pipedemo.component';
     DatabindingComponent,
     DirectivedemoComponent,
     AttrubutedirComponent,
-    PipedemoComponent
+    PipedemoComponent,
+    SqurPipe,
+    CubePipe,
+    FromsdemoComponent,
+    TempletdrivenComponent,
+    ReactivedrivenComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
