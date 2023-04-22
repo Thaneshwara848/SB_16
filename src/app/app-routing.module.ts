@@ -13,8 +13,12 @@ import { DirectivedemoComponent } from './directivedemo/directivedemo.component'
 import { PipedemoComponent } from './pipedemo/pipedemo.component';
 import { FromsdemoComponent } from './fromsdemo/fromsdemo.component';
 import { ServdemoComponent } from './servdemo/servdemo.component';
+import { ChatAppComponent } from './chat-app/chat-app.component';
 
 const routes: Routes = [
+  {
+    path:'chat',component:ChatAppComponent
+  },
   {
     path:'serv',component:ServdemoComponent
   },

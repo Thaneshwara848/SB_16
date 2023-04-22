@@ -31,6 +31,10 @@ import { ServdemoComponent } from './servdemo/servdemo.component';
 import { A1Component } from './a1/a1.component';
 import { A2Component } from './a2/a2.component';
 import { A3Component } from './a3/a3.component';
+import { ChatramaComponent } from './chatrama/chatrama.component';
+import { ChatseethaComponent } from './chatseetha/chatseetha.component';
+import { ChatAppComponent } from './chat-app/chat-app.component';
+import { RavanaComponent } from './ravana/ravana.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -60,7 +64,11 @@ import { A3Component } from './a3/a3.component';
     ServdemoComponent,
     A1Component,
     A2Component,
-    A3Component
+    A3Component,
+    ChatramaComponent,
+    ChatseethaComponent,
+    ChatAppComponent,
+    RavanaComponent
   ],
   imports: [
     BrowserModule,
