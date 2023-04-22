@@ -12,8 +12,12 @@ import { DatabindingComponent } from './databinding/databinding.component';
 import { DirectivedemoComponent } from './directivedemo/directivedemo.component';
 import { PipedemoComponent } from './pipedemo/pipedemo.component';
 import { FromsdemoComponent } from './fromsdemo/fromsdemo.component';
+import { ServdemoComponent } from './servdemo/servdemo.component';
 
 const routes: Routes = [
+  {
+    path:'serv',component:ServdemoComponent
+  },
   {
     path:'forms',component:FromsdemoComponent
   },
