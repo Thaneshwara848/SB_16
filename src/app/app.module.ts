@@ -26,7 +26,7 @@ import { CubePipe } from './cube.pipe';
 import { FromsdemoComponent } from './fromsdemo/fromsdemo.component';
 import { TempletdrivenComponent } from './templetdriven/templetdriven.component';
 import { ReactivedrivenComponent } from './reactivedriven/reactivedriven.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule , ReactiveFormsModule} from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -57,7 +57,8 @@ import { FormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
