@@ -15,7 +15,6 @@ export class ChatramaComponent {
 
   msgs:any=[];
   sendmsg(textdata:any){
-    
    this.msgs=this.srv.chat(textdata)
   }
 }

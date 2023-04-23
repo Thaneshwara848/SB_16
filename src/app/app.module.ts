@@ -35,6 +35,9 @@ import { ChatramaComponent } from './chatrama/chatrama.component';
 import { ChatseethaComponent } from './chatseetha/chatseetha.component';
 import { ChatAppComponent } from './chat-app/chat-app.component';
 import { RavanaComponent } from './ravana/ravana.component';
+import { ProductserviceComponent } from './productservice/productservice.component';
+import { ProductComponent } from './product/product.component';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -68,13 +71,16 @@ import { RavanaComponent } from './ravana/ravana.component';
     ChatramaComponent,
     ChatseethaComponent,
     ChatAppComponent,
-    RavanaComponent
+    RavanaComponent,
+    ProductserviceComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,21 @@
+<h1> Hi hear is The Product Details ...!</h1>
+<table class="table">
+    <thead>
+        <th>ID</th>
+        <th>NAME </th>
+        <th>Description</th>
+        <th>Price </th>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let prod of records">
+            <td>{{prod.id}}</td>
+            <td>{{prod.name}}</td>
+            <td>{{prod.desc}}</td>
+            <td>{{prod.price}}</td>
+
+        </tr>
+
+    </tbody>
+
+</table>

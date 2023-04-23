@@ -14,8 +14,12 @@ import { PipedemoComponent } from './pipedemo/pipedemo.component';
 import { FromsdemoComponent } from './fromsdemo/fromsdemo.component';
 import { ServdemoComponent } from './servdemo/servdemo.component';
 import { ChatAppComponent } from './chat-app/chat-app.component';
+import { ProductComponent } from './product/product.component';
 
 const routes: Routes = [
+  {
+      path:'backend',component:ProductComponent
+  },
   {
     path:'chat',component:ChatAppComponent
   },
